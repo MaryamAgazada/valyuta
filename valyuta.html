@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="valyuta.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="#">
+            <label for="manat">Manat</label>
+            <input type="number" placeholder="Manat" id="manat" name="manat" min="0" max="100000">
+    
+            <select name="amount" id="amountId">
+                <option value="euro">Euro</option>
+                <option value="dollar">USA Dollar</option>
+                <option value="riyal">Iran Riyali</option>
+                <option value="sterlin">Ingilis Sterlini</option>
+                <option value="yuan">Çin Yuani</option>
+            </select>
+    
+            
+            <button id="btn" type="submit">Send</button>
+            <button id="resetBtn" type="reset">Reset</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+
+    <script src="valyuta.js"></script>
+</body>
+
+</html>
+ 
